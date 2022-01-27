@@ -1,0 +1,31 @@
+ Write a program called GeometricPropertyCalculator.
+• The program reads an input file (called input.txt). Each line in the file contains dimensions of a geometric
+shape – rectangle, shape and triangle. Specifically:
+• For rectangle, it contains – RECTANGLE <length-in-cm> <breadth-in-cm>
+• For circle, it contains – CIRCLE <radius-in-cm>
+• For triangle, it contains – TRIANGLE <side-1-in-cm> <side-2-in-cm> <side-3-in-cm>
+• The user specifies the property to calculate as argument to the program: 1 for AREA and 2 for PERIMETER
+• The program writes output lines to an output file (called output.txt) for each shape that it reads and the
+property – AREA or PERIMETER.
+
+For example, for RECTANGLE and property as AREA, the program should write – RECTANGLE AREA <calculated value>
+• Write GeometricPropertyCalculator in C++
+• It should support RECTANGLE, CIRCLE and TRIANGLE
+• It should support properties AREA and PERIMETER
+• If there is insufficient information, the program should give an error. E.g. TRIANGLE AREA “Not enough information to calculate”
+
+Code guidelines
+• Have sub-directories in your folder
+• src sub-folder, (or code) for code
+• data sub-folder, for input.txt and output.txt
+• doc sub-folder, for documentation on what the code does or sample output
+
+Hint
+• Area
+• Rectangle: length x breadth
+• Circle: pi * r^2
+• Triangle: -
+• Perimeter
+• Rectangle: 2 * (length + breadth)
+• Circle: 2 * pi * r
+• Triangle: sum of sides
