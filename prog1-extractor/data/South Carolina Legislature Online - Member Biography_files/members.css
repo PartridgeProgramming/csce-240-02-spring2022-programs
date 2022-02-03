@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300, 100);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+#contentsection { padding: 0px; }
+
+#membersBox {
+	max-height: 575px;
+	overflow-y: scroll;
+	background-color: #e1e1e1;
+}
+
+.memberOutline {
+	margin: 10px 10px;
+	width: 230px;
+	height: 165px;
+	background-color: #f0f0f0;
+	float: left;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	page-break-inside: avoid !important;
+
+}
+.member {
+	width: 217px;
+	height: 150px;
+	background-color: white;
+	text-align: center;
+	color: #234260;
+	font-family: arial;
+	float: left;
+	margin: 5px 5px;
+	border: 1px solid #e0e0e0;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	page-break-inside: avoid !important; 
+}
+
+.memberOutline .member .district {
+	line-height: 30px;
+	font-size: 20px;
+	border-bottom: 1px solid #b9b9b9;
+	width: 95%;
+	margin-bottom: 2px;
+}
+
+.memberpic {max-width: 105px;
+	max-height: 117px;
+	float: left;
+	border-right: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;}
+	
+.info {
+	float: left;
+	text-align: center;
+	width: 110px;
+	margin-top: 0px;
+	font-family: Open Sans;
+}
+
+.info #address {
+	line-height: 12px;
+	margin-top: 3px;
+}
+
+.info #phone {
+	margin-top: 3px;
+}
+
+.info .membername-session {
+	margin-top: 20px;
+}
+
+h1 a{
+	font-family: Open Sans;
+	font-size: 1.2em !important;
+}
+
+.printdisplay{
+	display: none;
+}

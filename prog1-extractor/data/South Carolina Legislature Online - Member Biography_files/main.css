@@ -1,0 +1,441 @@
+* {font-size: 100%;  font-family: arial,helvetica,sans-serif; margin: 0; padding: 0;}
+
+.rounded {-moz-border-radius: 15px; -webkit-border-radius: 15px; border-radius: 15px; -khtml-border-radius: 15px; }
+.rounded-topleft {-moz-border-radius-topleft: 15px; -webkit-border-top-left-radius: 15px; border-top-left-radius: 15px; -khtml-border-top-left-radius: 15px; }
+.rounded-topright {-moz-border-radius-topright: 15px; -webkit-border-top-right-radius: 15px; border-top-right-radius: 15px; -khtml-border-top-right-radius: 15px; }
+.rounded-bottomleft {-moz-border-radius-bottomleft: 15px; -webkit-border-bottom-left-radius: 15px; border-bottom-left-radius: 15px; -khtml-border-bottom-left-radius: 15px; }
+.rounded-bottomright {-moz-border-radius-bottom-right: 15px; -webkit-border-bottom-right-radius: 15px; border-bottom-right-radius: 15px; -khtml-border-bottom-right-radius: 15px; }
+
+#showmoredata {position: fixed; background-color:white; padding-right:10px; border:1px solid #DDDDDD; border-left:none; right:10px;}
+#showmoredata div{text-align:left;}
+#showmoredata span.datalabel{display:inline-block; width:45%; text-align:right; font-weight:bold; padding-right:10px; vertical-align:top; }
+#showmoredata span.data{display:inline-block; text-align:left; width:50%; vertical-align:bottom;}
+
+#key {text-align:left; width:40%; font-weight:bold;  margin-left:20px; border:1px solid lightgray;}
+#key div{display:inline:block; text-align:left; font-weight:bold; margin:0 0 0 40px; padding:1px 0 1px 0; border:1px solid lightgray;}
+#key div span{display:inline:block; width:50px; border:1px solid lightgray;}
+
+ul {margin: 0px; padding: 0px; list-style-type: none;}
+
+p { display: block; margin: 1em 0; }
+
+pre { display: block; font-family: monospace; font-size: 11px; margin: 1em 0; white-space: pre; }
+
+.home { font-weight: normal; color: black; background-color: #bdaf9e; background-color: #cbc3ac; font-size: 13px; text-align:center;}
+
+a { color: #26425f; margin: 0px; padding: 0px; font-size: 11px; font-weight:normal; font-family: arial,helvetica,sans-serif; text-decoration: none;}
+a:link { color: #26425f; margin: 0px; padding: 0px; font-size: 11px; font-weight:normal; font-family: arial,helvetica,sans-serif; text-decoration: none;}
+a:visited { color: #26425f; margin: 0px; padding: 0px; font-size: 11px; font-weight:normal; font-family: arial,helvetica,sans-serif; text-decoration: none;}
+a:hover { color: #36362a; margin: 0px; padding: 0px; font-size: 11px; font-weight:normal; font-family: arial,helvetica,sans-serif; text-decoration: underline;}
+
+div.oldframe { width: 100%; background-color: #b00000;  color: white; padding: 10px 0; text-align: center;}
+
+div.oldframe a { color: white; text-decoration: underline;}
+div.oldframe a:link { color: white; text-decoration: underline;}
+div.oldframe a:visited { color: white; text-decoration: underline;}
+div.oldframe a:hover { color: pink; text-decoration: underline;}
+
+table.highlighter {font-family:Arial,sans-serif; font-size:12px; border-collapse:collapse;}
+table.highlighter th { vertical-align:middle; }
+.redeven { background-color: #ff4040; }
+.redodd { background-color: #ffabab; }
+.greeneven { background-color: #40ff40; }
+.greenodd { background-color: #abffab; }
+.purpleeven { background-color: #ffabff; }
+.purpleodd { background-color: #ffbfff; }
+.blueeven { background-color: #ababff; }
+.blueodd { background-color: #bfbfff; }
+table.highlighter tr.even { background-color: #f0f0f0; }
+table.highlighter tr.odd { background-color: #fdfdfd; }
+table.highlighter tr:hover { background-color: #ffff99; }
+table.highlighter tr td { vertical-align:top; text-align:left; background-color: transparent; }
+
+#container {width: 960px; height: 400px; margin: 0px auto 0px;  padding:0 0 0 0; background-color:transparent; background-image: url(/images/statehousebackground12b.jpg); background-repeat: no-repeat; background-position: 0px -7px; }
+#senatecontainer {width: 960px; height: 425px; margin: 0px auto 0px;  padding:0; background-color:transparent; background-image: url(/images/senatepanoramaheader.jpg); background-repeat: no-repeat; background-position: 0px -16px; }
+#housecontainer {width: 960px; height: 425px; margin: 0px auto 0px;  padding:0; background-color:transparent; background-image: url(/images/housepanoramaheader.jpg); background-repeat: no-repeat; background-position: 0px -14px; }
+
+#header { width: 960px; height:100px;}
+#headerimg { float: left; margin: 0px; width: 960px; height: 100px; padding:0; border:0; }
+#senateheaderimg { float: left; margin: 0px; width: 960px; height: 150px; padding:0; border:0; }
+#househeaderimg { float: left; margin: 0px; width: 960px; height: 150px; padding:0; border:0; }
+#header div a {margin: 0 15px 0 0; padding: 0; text-align:right; color:#666; font-size: 10px; font-family: arial,helvetica,sans-serif; text-decoration: none;}
+
+#headerpictureleft{float:left; border:1px solid #888; padding:3px; background-color:white; margin:-74px 10px 2px 4px; }
+#headerpictureright{float:right; border:1px solid #888; padding:3px; background-color:white; margin:-74px 4px 2px 10px; }
+
+#footer { float:left; width: 960px; font-size: 10px;  color: #eee; font-family: arial,helvetica,sans-serif; text-decoration: none; background-color: #8f7f68;}
+#footer a { color: white; margin: 0px; padding: 0px; font-size: 10px;  font-family: arial,helvetica,sans-serif; text-decoration: none;}
+#footer a:link { color: white; margin: 0px; padding: 0px; font-size: 10px;  font-family: arial,helvetica,sans-serif; text-decoration: none;}
+#footer a:visited { color: white; margin: 0px; padding: 0px; font-size: 10px;  font-family: arial,helvetica,sans-serif; text-decoration: none;}
+#footer a:hover { color: white; margin: 0px; padding: 0px; font-size: 10px;  font-family: arial,helvetica,sans-serif; text-decoration: underline;}
+
+#pagebody { float: left; width: 960px; text-align: left; margin: 0 0 0 0; padding:0 0 10px 0; background-color: #f7f4ec;} 
+
+#topmessage {float:left; width:960px; height: 60px; text-align: center; margin: 0; background-color:#831224; color:white; font-weight:bold; padding: 5px 0 0 0;}
+
+#menu {float: left; width: 825px; height: 28px; text-align: center; margin: 0; padding: 0 0 0 0; background-color: #8f7f68;}
+#menu ul {margin: 0px; padding: 0px; list-style-type: none;}
+#menu li {float: left; height: 23px; margin: 0px; padding:  5px 12px 0 12px; text-align: center; font-size: 13px; font-weight: bold; color: white;}
+#menu li.selected {background-color: #f7f4ec; color:white; border:1px solid #666; border-bottom:0; height:22px;}
+#menu li.homeselected {background-color: #f7f4ec; color:black; border:1px solid #666; border-bottom:0; border-left:0; height:22px;}
+#menu span {display: inline-block; margin: 0 0 0 0; padding: 0;}
+#menu a { color: white; margin: 0px; padding: 0px; font-size: 13px; font-weight: bold; font-family: arial,helvetica,sans-serif; text-decoration: none;}
+/*#menu a:link { color: white; margin: 0px; padding: 0px; font-size: 13px;  font-family: arial,helvetica,sans-serif; text-decoration: none;}
+#menu a:visited { color: white; margin: 0px; padding: 0px; font-size: 13px;  font-family: arial,helvetica,sans-serif; text-decoration: none;}*/
+#menu a:hover { color: #fbf6ac; color: #ebbf10; color: white; margin: 0px; padding: 0px; font-size: 13px; font-weight: bold; font-family: arial,helvetica,sans-serif; text-decoration: underline;}
+
+#submenu {float: left; width:935px; height: 30px; text-align: center; margin: 0; padding: 3px 5px 2px 20px; background-color: #26425f; border-bottom:1px solid #444;}
+#submenu ul {margin: 0px; padding: 0px; list-style-type: none;}
+#submenu li {float: left; height: 23px; margin: 0px; padding: 0 10px 0 10px; text-align: center;}
+#submenu li.selected {background-color: #f7f4ec; color:black; margin-top:-2px; padding-top: 1px; padding-bottom: 3px; border:1px solid black; border-bottom:0; height:30px;}
+#submenu span {display: inline-block; margin: 0 0 0 0; padding: 0;}
+#submenu a { color: white; margin: 0px; padding: 0px; font-size: 11px;  font-family: arial,helvetica,sans-serif; text-decoration: none;}
+/*#submenu a:link { color: white; margin: 0px; padding: 0px; font-size: 11px;  font-family: arial,helvetica,sans-serif; text-decoration: none;}
+#submenu a:visited { color: white; margin: 0px; padding: 0px; font-size: 11px;  font-family: arial,helvetica,sans-serif; text-decoration: none;}*/
+#submenu a:hover { color:white; margin: 0px; padding: 0px; font-size: 11px;  font-family: arial,helvetica,sans-serif; text-decoration: underline;}
+
+#search {float: left; width: 100px; margin: 0 0 0 0; padding: 0 0 0 35px; background-color: #8f7f68;}
+#search ul {margin: 0px; padding: 0px; list-style-type: none;}
+#search li {float: left; height: 23px; margin: 0px; padding:  0px 0 0 0px; text-align: center;}
+#search span {float: left; display: inline-block; width: 110px; color: white; font-size: 11px; padding: 3px 10px 0 0; text-align: right;}
+#search input {float: left; width: 183px; height: 20px; font-size: 11px; margin: 0px; padding: 0px 0px 0px 3px; border: none; background-color: transparent; background-image: url(/images/searchback.png); background-repeat: no-repeat;}
+#search img {float: left; background-color: white; background-color: transparent; margin: 0px; padding: 0px; width: 20px; height: 20px; border: 0;}
+#search a {float: left; margin: 0 0 0 -5px; padding: 0; text-decoration: none;}
+
+#sidebar {float:left; width: 180px;  font-size: 12px; margin: 10px 0 0 0px;}
+#vidlinks {padding:0 0 5px 0; width: 178px; height:35px; background-color:#831224; border:1px solid black; border-left: 1px outset #666; }
+#vidlinks ul {margin:0px; padding:0px; list-style-type: none;  color:black; background-color:#831224;}
+#vidlinks li {position:relative; color:white; margin:0px; width: 176px; padding: 0; font-weight:bold; text-align:center;}
+#vidlinks img{margin:0 0 0 3px;}
+#vidlinks a {float:left; display:block; width:50%; height:20px; text-align:center; color: #831224; color: white; margin: 0px; padding: 0; font-size: 12px;  font-family: arial,helvetica,sans-serif; text-decoration: none; overflow: hidden;}
+#vidlinks a:link { color: #831224; color: white; margin: 0px; padding: 0; font-size: 12px;  font-family: arial,helvetica,sans-serif; text-decoration: none; overflow: hidden;}
+#vidlinks a:visited { color: #831224; color: white; margin: 0px; padding: 0; font-size: 12px;  font-family: arial,helvetica,sans-serif; text-decoration: none; overflow: hidden;}
+#vidlinks a:hover {color:#146eb4; color: white; margin: 0px; padding: 0; font-size: 12px;  font-family: arial,helvetica,sans-serif; text-decoration: underline; overflow: hidden;}
+
+#commvidlinks {padding:0; width: 178px; height:80px; text-align:center; background-color:#831224; border:1px solid black; border-left: 1px outset #666; border-top:1px solid #fff;}
+#commvidlinks a {display:block; width:100%; height:17px; text-align:center; color: #831224; color: white; margin: 0px; padding: 6px 0 10px 0; font-size: 14px;  font-family: arial,helvetica,sans-serif; text-decoration: underline; overflow: hidden;}
+#commvidlinks a:link { color: #831224; color: white; margin: 0px; padding: 6px 0 10px 0; font-size: 14px;  font-family: arial,helvetica,sans-serif; text-decoration: underline; overflow: hidden;}
+#commvidlinks a:visited { color: #831224; color: white; margin: 0px; padding: 6px 0 10px 0; font-size: 14px;  font-family: arial,helvetica,sans-serif; text-decoration: underline; overflow: hidden;}
+#commvidlinks a:hover {color:#146eb4; color: white; margin: 0px; padding: 6px 0 10px 0; font-size: 14px;  font-family: arial,helvetica,sans-serif; text-decoration: underline; overflow: hidden;}
+
+#audlinks {margin:0 0 0 0; padding:5px 0 0 0; width: 178px; height:35px; background-color:#831224; border:1px solid black; border-left: 1px outset #666; border-top: 0; }
+#audlinks ul {margin:0px; padding:0px; list-style-type: none;  color:black; background-color:#831224;}
+#audlinks li {position:relative; color:white; margin:0px; width: 176px; padding: 0; font-weight:bold; text-align:center;}
+#audlinks img{margin:0 0 0 3px;}
+#audlinks a {float:left; display:block; width:50%; height:20px; text-align:center; color: #831224; color: white; margin: 0px; padding: 0; font-size: 12px;  font-family: arial,helvetica,sans-serif; text-decoration: none; overflow: hidden;}
+#audlinks a:link { color: #831224; color: white; margin: 0px; padding: 0; font-size: 12px;  font-family: arial,helvetica,sans-serif; text-decoration: none; overflow: hidden;}
+#audlinks a:visited { color: #831224; color: white; margin: 0px; padding: 0; font-size: 12px;  font-family: arial,helvetica,sans-serif; text-decoration: none; overflow: hidden;}
+#audlinks a:hover {color:#146eb4; color: white; margin: 0px; padding: 0; font-size: 12px;  font-family: arial,helvetica,sans-serif; text-decoration: underline; overflow: hidden;}
+
+#sidemenu {margin: 10px 0 0 0px; background-color:#26425f; background-color:#000000;}
+#sidemenu ul {margin: 0px; padding: 0px; list-style-type: none; border:1px solid black; color:black;}
+#sidemenu li {position:relative; color:white; width: 176px; height:25px; margin:0px; padding: 0; font-weight:bold; border-left: 1px outset #666; background-color: transparent; background-image: url(/images/sidemenublueone.jpg); background-repeat: no-repeat;}
+#sidemenu li:hover {width: 176px; height:25px; z-index: 100; margin: 0; padding: 0; background-color: transparent; background-image: url(/images/sidemenuwhiteone.jpg); background-repeat: no-repeat; background-position:top left; color:black; border-left: 0;}
+#sidemenu li.two {height:40px; background-image: url(/images/sidemenubluetwo.jpg);}
+#sidemenu li.two:hover {width: 176px; height:40px; z-index: 100; margin: 0; padding: 0; background-color: transparent; background-image: url(/images/sidemenuwhitetwo.jpg); background-repeat: no-repeat; background-position:top left;color:black;}
+#sidemenu li.arrow {background-image:url(/images/arrow4.png); background-repeat:no-repeat; background-position:center right;}
+
+#sidemenu .nolink { color: white; margin: 0px; width: 171px; padding:0 0 0 5px; font-size: 12px; font-family: arial,helvetica,sans-serif; text-decoration: none; display: block;}
+#sidemenu .nolinkdiv { padding: 5px 0 0 0; }
+#sidemenu .nolink:hover {z-index: 100; color: #ec8103; color:#146eb4; margin: 0px; padding: 0 0 0 5px; font-size: 12px; font-weight:bold; font-family: arial,helvetica,sans-serif; text-decoration: none; display: block; }
+
+#sidemenu li > a { color: white; margin: 0px; padding: 5px 0 5px 5px; font-size: 12px;  font-weight:bold; font-family: arial,helvetica,sans-serif; text-decoration: none; display: block; overflow: hidden;}
+#sidemenu li > a:link { color: white; margin: 0px; padding: 5px 0 5px 5px; font-size: 12px;  font-weight:bold; font-family: arial,helvetica,sans-serif; text-decoration: none; display: block; overflow: hidden;}
+#sidemenu li > a:visited { color: white; margin: 0px; padding: 5px 0 5px 5px; font-size: 12px;  font-weight:bold; font-family: arial,helvetica,sans-serif; text-decoration: none; display: block; overflow: hidden;}
+#sidemenu li > a:hover {color: #ec8103; color:#146eb4; margin: 0px; padding: 5px 0 5px 5px; font-size: 12px;  font-weight:bold; font-family: arial,helvetica,sans-serif; text-decoration: none; display: block; overflow: hidden;}
+
+.award {float:right; margin-top:-100px; width:115px; font-size:.88em; font-weight:bold; text-align:center; color:white;}
+
+.sidesubmenu {position:absolute; width:150px; top:-1px; left:160px; background-color:white; color:black; display:none; z-index:200; margin:0; padding:0;}
+ 
+.sidediv { height:19px; font-weight: normal; color: #146eb4; background-color: white; font-size: 11px; text-align:left; padding:5px 0 0 15px; border-right:2px solid #666; border-left:1px solid #666;}
+.topelement {border-top:1px solid black; border-left:0;}
+.bottomelement {border-bottom:2px solid #666;}
+.sidediv > a {display:block; height:19px; width:100%; color: #146eb4; background-color: white; margin: 0px; padding: 0px; font-size: 11px; font-family: arial,helvetica,sans-serif; text-decoration: none;}
+.sidediv > a:hover { text-decoration: underline; }
+
+#sidesearch {width:200px;}
+#sidesearch div {height:18px; font-weight: normal; color: #146eb4; background-color: white; font-size: 11px; text-align:left; padding:5px 0 0 15px; border-right:2px solid #666; border-left:1px solid #666;}
+#sidesearch div.topelement {padding-top:10px; border-top:1px solid black; border-left:0;}
+#sidesearch div.bottomelement {border-bottom:2px solid #666; padding-bottom:10px;}
+#sidesearch div span{float:left; display: inline-block; width: 110px;}
+#sidesearch div span.label{width: 60px; height: 14px;}
+#sidesearch div a{float:left; display: block; width:20px;}
+#sidesearch div img{border:0;}
+#sidesearch div input[type="text"]{float:left; width: 80px; height: 14px;}
+#sidesearch div input[type="checkbox"]{float:left; margin:0 10px 0 0;}
+
+#side_ad {text-align:center; margin:15px 0 0 5px; padding:0 0 10px 0;}
+#side_ad a{display:inline-block; margin:5px 0 5px 0;}
+
+.mainpanel {float:left; width:575px; font-weight: normal; color: black; font-size: 12px; text-align:left; margin: 10px 0 0 15px; background-color: #f7f4ec; background-image: url(/images/statehousedome_web12b.jpg); background-repeat: no-repeat; background-position: 170px 70px;}
+.mainpanel a { color: black; margin: 0px; padding: 0px; font-size: 12px;  font-family: arial,helvetica,sans-serif; text-decoration: none;}
+.mainpanel a:link { color: black; margin: 0px; padding: 0px; font-size: 12px;  font-weight:bold; font-family: arial,helvetica,sans-serif; text-decoration: none;}
+.mainpanel a:visited { color: black; margin: 0px; padding: 0px; font-size: 12px;  font-family: arial,helvetica,sans-serif; text-decoration: none;}
+.mainpanel a:hover { color: #363e7d; margin: 0px; padding: 0px; font-size: 12px;  font-family: arial,helvetica,sans-serif; text-decoration: underline;}
+.mainmessage {font-weight: bold; color: black; font-size: 12px; text-align:left; margin: 2px 0 5px 0; text-align:center;}
+.reconvene {font-weight: bold; color: black; font-size: 12px; text-align:left; margin: 2px 0 2px 0;}
+.horizontal {width: 85%; margin:15px 0 5px 0;}
+
+.mainwidepanel {float:left; width:750px; font-weight: normal; color: black; font-size: 12px; text-align:left; margin: 10px 0 0 15px;}
+.mainwidepanel a { color: #26425f;; margin: 0px; padding: 0px; font-size: 12px;  font-family: arial,helvetica,sans-serif; text-decoration: none;}
+.mainwidepanel a:link { color: #26425f;; margin: 0px; padding: 0px; font-size: 12px;  font-weight:bold; font-family: arial,helvetica,sans-serif; text-decoration: none;}
+.mainwidepanel a:visited { color: #26425f;; margin: 0px; padding: 0px; font-size: 12px;  font-family: arial,helvetica,sans-serif; text-decoration: none;}
+.mainwidepanel a:hover { color: #26425f; margin: 0px; padding: 0px; font-size: 12px;  font-family: arial,helvetica,sans-serif; text-decoration: underline;}
+
+.contentbox {width:570px; margin:20px 0 0 0; padding:5px 0 0 8px; background-image:url(/images/contentbox.jpg); background-repeat:no-repeat; background-position:top left;}
+
+.special {color:red; font-weight:bold;}
+
+#senatebox {float: left; width:275px; height: 330px; margin:20px 0px 3px 0; padding: 0 3px 0 5px; background-color: transparent;}
+#senatebox div {margin:0px 0 0px 30px;}
+#senatebox div.separator {margin:18px 0 0 -10px; padding:0; width:210px; height:10px; border-top:3px solid #36362a; border-bottom:1px solid #36362a; background-color:#8f7f68;}
+#senatebox div a {display: inline-block; width:150px; font-size: 11px; color:#36362a;}
+#senatebox div a.dashboard { font-size: 1.1em;  color: red;}
+#senatebox ul.list a {display: inline-block; width: 150px; font-size: 11px; color: #36362a; padding:3px 0 3px 0;}
+#senatebox ul.list a.dashboard { font-size: 1.1em;  color: red; }
+#senatebox ul.list {margin: 0 0 20px 30px; padding: 0px; }/*list-style-image: url(/images/dot.jpg); list-style-type: none;}*/
+#senatebox ul.list li{margin: 0; padding: 0 0 0 15px; background-image: url(/images/dot.jpg); background-repeat: no-repeat; background-position: left center;}
+#senatebox ul.list2 a {display: inline-block; width: 90px; font-size: 11px; color: #36362a;}
+#senatebox ul.list2 a.dashboard { font-size: 1.1em;  color: red;}
+#senatebox ul.list2 {float:left; width:230px; margin: 0 0 10px 10px; padding: 0px; }/*list-style-image: url(/images/dot.jpg);}*/
+#senatebox ul.list2 li{float:left; width:100px; margin: 0; padding: 0 0 0 15px; background-image: url(/images/dot.jpg); background-repeat: no-repeat; background-position: left center;}
+
+#senatebox div h2{width:100%; font-weight: bold; font-size: 16px;  text-decoration:underline; font-family: cambria,'times new roman',serif; color:#000; text-align:center; border-top:0px solid #ddd; border-bottom:0px solid #ddd; margin: 0px; }
+#senatebox ul.sclaw {width: 175px; margin: 0 0 0 30px; padding: 10px 0 0 0; list-style-type: none;}
+#senatebox ul.sclaw li {padding: 0 0 4px 0;}
+#senatebox ul.sclaw a {font-size: 11px;}
+#senatebox ul.current {margin: 0 0 20px 40px; padding: 0px; }
+#senatebox div.header {width: 275px; margin: 30px 0 0 10px; padding: 0px; font-size: 14px; font-weight:bold; font-family: arial,helvetica,sans-serif; text-decoration: underline;}
+/*#senatebox ul.current:before {margin: 0 0 0 -20px; padding: 0px; content: "Current Information"; font-size: 14px; font-weight:bold; font-family: arial,helvetica,sans-serif; text-decoration: underline;}*/
+
+a.chamberlink {display:block; height:40px; text-align: center; margin:20px 0px 0px 20px; width:125px; color:black; font-size: 22px; font-weight:bold; font-family: cambria,'times new roman',serif; text-decoration: underline;}
+a.chamberlink:link {display:block; height:40px; text-align: center; margin:20px 0px 0px 20px; width:125px; color:black; font-size: 22px; font-weight:bold; font-family: cambria,'times new roman',serif; text-decoration: underline;}
+a.chamberlink:visited {display:block; height:40px; text-align: center; margin:20px 0px 0px 20px; width:125px; color:black; font-size: 22px; font-weight:bold; font-family: cambria,'times new roman',serif; text-decoration: underline;}
+a.chamberlink:hover {display:block; height:40px; text-align: center; margin:20px 0px 0px 20px; width:125px; color:#831224; color:#26425f; font-size: 22px; font-weight:bold; font-family: cambria,'times new roman',serif; text-decoration: underline;}
+
+#formheader {width:740px; height:50px; margin:15px 0; padding:5px;}
+#formheader form > div {float:left; height: 50px;}
+#formheader label {font-weight:bold;}
+#formheader input[type="text"] {width:300px;}
+.barheader {margin:0 0 10px 0; padding:15px 0 15px 0; background-color:#8f7f68; color:white; font-size: 16px; font-weight:bold; font-family: arial,helvetica,sans-serif; text-align:center;}
+.barheadercolor {background-color:#8f7f68; color:white;}
+.barheadercolor a { color: #f7f4ec; margin: 0px; padding: 0px; font-size: 11px;  font-family: arial,helvetica,sans-serif; text-decoration: none;}
+.barheadercolor a:link { color: #f7f4ec; margin: 0px; padding: 0px; font-size: 11px;  font-weight:bold; font-family: arial,helvetica,sans-serif; text-decoration: none;}
+.barheadercolor a:visited { color: #f7f4ec; margin: 0px; padding: 0px; font-size: 11px;  font-family: arial,helvetica,sans-serif; text-decoration: none;}
+.barheadercolor a:hover { color: #f7f4ec; margin: 0px; padding: 0px; font-size: 11px;  font-family: arial,helvetica,sans-serif; text-decoration: underline;}
+.sidemenucolor {color:#26425f;}
+.pagebodycolor {color:#f7f4ec;}
+
+#senate_description {width:740px; height:110px; margin: 0px 5px 10px 0px}
+#senate_description p{float:left; width:510px; font-weight: normal; font-size: 12px; text-align:justify;}
+#senate_description #logo {float:left; width:200px; padding:0 20px 0 5px; vertical-align:top; text-align:center; font-weight: bold; font-size: 18px;}
+#senate_welcomemessage {margin: 10px 5px 0px 5px; width:740px;}
+#senate_welcomemessage img{border:1px solid #888; padding:3px; background-color:white;}
+#senate_welcomemessage #leaderpicture{float:right; margin:-54px 4px 2px 10px; }
+#senate_welcomemessage #chamberpicture{text-align:center;}
+#senate_welcomemessage p {font-weight: normal; font-size: 13px; margin-bottom:15px; text-align:justify;}
+
+#house_description {width:740px; height:120px; margin: 0px 5px 10px 0px}
+#house_description p{float:left; width:510px; font-weight: normal; font-size: 12px; text-align:justify;}
+#house_description #logo {float:left; width:200px; padding:0 20px 0 5px; vertical-align:top; text-align:center; font-weight: bold; font-size: 18px;}
+#house_welcomemessage {margin: 10px 5px 0px 5px; width:740px;}
+#house_welcomemessage img{border:1px solid #888; padding:3px; background-color:white;}
+#house_welcomemessage #leaderpicture{float:right; margin:-54px 4px 2px 10px; }
+#house_welcomemessage #chamberpicture{text-align:center;}
+#house_welcomemessage p {font-weight: normal; font-size: 13px; margin-bottom:15px; text-align:justify;}
+
+#council_description {width:740px; height:120px; margin: 0px 5px 10px 0px}
+#council_description p{float:left; width:510px; font-weight: normal; font-size: 12px; text-align:justify;}
+#council_description #logo {float:left; width:200px; padding:0 20px 0 5px; vertical-align:top; text-align:center; font-weight: bold; font-size: 18px;}
+#council_welcomemessage {margin: 10px 5px 0px 5px; width:740px;}
+#council_welcomemessage img{border:1px solid #888; padding:3px; background-color:white;}
+#council_welcomemessage #leaderpicture{float:right; margin:-54px 4px 2px 10px; }
+#council_welcomemessage p {font-weight: normal; font-size: 13px; margin-bottom:15px; text-align:justify;}
+
+#housebox {float: right; width:275px; height: 330px; margin:20px 0 3px 0; padding: 0 3px 0 0px;}
+#housebox div {margin:0px 0 0px 5px;}
+#housebox div.separator {margin:18px 0 0 50px; padding:0; width:210px; height:10px; border-top:3px solid #36362a; border-bottom:1px solid #36362a; background-color:#8f7f68;}
+#housebox div a {display: inline-block; width: 150px; font-size: 11px; color: #36362a; }
+#housebox div a.dashboard { font-size: 1.1em;  color: red;}
+#housebox ul.list a {display: inline-block; width: 150px; font-size: 11px; color: #36362a; padding:3px 0 3px 0;}
+#housebox ul.list a.dashboard { font-size: 1.1em;  color: red;}
+#housebox ul.list {margin: 0 0 20px 100px; padding: 0px; }
+#housebox ul.list li{margin: 0; padding: 0 0 0 15px; background-image: url(/images/dot.jpg); background-repeat: no-repeat; background-position: left center;}
+#housebox ul.list2 a {display: inline-block; width: 100px; font-size: 11px; color: #36362a;}
+#housebox ul.list2 a.dashboard { font-size: 1.1em;  color: red;}
+#housebox ul.list2 {float:left; width:250px; margin: 0 0px 10px 0px; padding: 0; }
+#housebox ul.list2 li{float:left; width:110px; margin: 0; padding: 0 0 0 15px; background-image: url(/images/dot.jpg); background-repeat: no-repeat; background-position: left center;}
+
+#housebox #quicksearchwrap {width: 175px; height:150px; margin: 10px 0 0 100px; padding: 0; background-color: transparent; border: 0px solid #bbb;}
+
+#housebox div.quicksearch {width: 190px; height: 135px; margin: 0 0 0 -10px; padding: 5px 0 0 0; overflow: hidden; /*overflow-y: scroll;*/ font-size: 10px;}
+#housebox div.quicksearch ul {margin: 0px; padding: 0px; list-style-type: none;}
+#housebox div.quicksearch li {float: left; height: 23px; margin: 0px; padding:  5px 0 0 0px; text-align: center;}
+#housebox div.quicksearch span {float: left; display: inline-block; width: 42px; color: black; font-size: 10px; padding: 3px 10px 0 0; text-align: right;}
+#housebox div.quicksearch ul input[type="text"] {float: left; width: 90px; height: 21px; border:none; font-size: 11px; margin: 0px; padding: 0px 0px 0px 3px; background-color: transparent; background-image: url(/images/searchback2.png); background-repeat: no-repeat;}
+#housebox div.quicksearch ul.choices li {float: left; height: 18px; margin: 0 0 0 50px; padding:  0; text-align: center;}
+#housebox div.quicksearch ul.choices span {float: left; display: inline-block; width: 42px; color: black; font-size: 10px; padding: 0 0 0 0; text-align:left;}
+#housebox div.quicksearch ul.choices input {float: left; width: 14px; font-size: 11px; margin: 0px; padding: 0px 0px 0px 3px; background-image:none;}
+#housebox div.quicksearch img {float: left; background-color: white; background-color: transparent; margin: 0px; padding: 0px; width: 21px; height: 21px; border: 0;}
+#housebox div.quicksearch a {float: left; width:21px; margin: 0 0 0 0; padding: 0; text-decoration: none;}
+
+#housebox div h2{width:100%; font-weight: bold; font-size: 16px; text-decoration:underline; font-family: cambria,'times new roman',serif; color:#000; text-align:center; border-top:0px solid #ddd; border-bottom:0px solid #ddd; margin: 0px; }
+#housebox ul.sclaw {width: 175px; margin: 0 0 0 30px; padding: 10px 0 0 0; list-style-type: none;}
+#housebox ul.sclaw li {padding: 0 0 5px 0; font-size: 12px;}
+#housebox ul.current {margin: 0px 0 0 135px; padding: 0px; list-style-image: url(/images/dot.jpg);}
+#housebox div.header {width: 275px; margin: 30px 0 0 115px; padding: 0px; font-size: 14px; font-weight:bold; font-family: arial,helvetica,sans-serif; text-decoration: underline;}
+/*#housebox ul.current:before {margin: 0 0 0 -20px; padding: 0px; content: "Current Information"; font-size: 14px; font-weight:bold; font-family: arial,helvetica,sans-serif; text-decoration: underline;}*/
+
+.boxheader {font-weight: bold; color: white; font-size: 12px; background-color:#8f7f68; color:#eee; text-align:center; margin:0px 0 10px 0; border-top:1px inset #333; }
+
+#rightpanel {float:right; width: 175px; border-top:0; margin: 0px 10px 0 0; }
+#rightpanel ul{margin: 0; padding: 0px; list-style-type: disc;}
+#rightpanel li{margin: 0 0 0 10px; padding: 0;}
+#scheduleS {margin: 10px 0 0 0; background-color: #fafbf5; background-color: #ffffff; border:1px inset #010101; font-size: 11px; text-align:left;}
+#scheduleH {margin: 10px 0 0 0; background-color: #fafbf5; background-color: #ffffff; border:1px inset #010101; font-size: 11px; text-align:left;}
+.scheduleheader {width:100%; font-weight: bold; color: white; font-size: 12px; background-color: #26425f; text-align:center; margin:0px 0 0 0; border-top:1px inset #333; }
+.scheduletwitter {width:100%; font-weight: bold; color: #00adff; font-size: 12px; background-color: #26425f; text-align:left; vertical-align:middle; margin:0; }
+.schedulebody {padding:0 0 0 5px; height:246px; overflow:hidden; overflow-y:scroll; }
+.schedulebody div{margin-left:-5px; }
+
+#breadcrumbs {font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #000000; background-color: transparent; text-decoration: none; margin: 0px 0px 10px; padding-left: 5px;}
+#breadcrumbs a{font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #26425f; background-color: transparent; text-decoration: none;}
+#breadcrumbs a:link{font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #26425f; background-color: transparent; text-decoration: none;}
+#breadcrumbs a:visited{font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #26425f; background-color: transparent; text-decoration: none;}
+#breadcrumbs a:hover{font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #26425f; background-color: transparent; text-decoration: underline;}
+#breadcrumbs span {font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #000000; background-color: transparent; text-decoration: none; padding: 0px;}
+
+.elevel {padding:2px 0 2px 80px; text-indent: 0px;}
+.dlevel {padding:2px 0 2px 80px; text-indent: -20px;}
+.clevel {padding:2px 0 2px 80px; text-indent: -40px;}
+.blevel {padding:2px 0 2px 80px; text-indent: -60px;}
+
+#contentsection {padding: 0px 25px 0px 25px;}
+#contentsection div.column{float:left; width:350px;}
+#contentsection div.column div{margin:0 0 20px 0;}
+#contentsection h3{margin: 10px 0 0 0; font-size:12px;}
+#contentsection ul{margin: 0; padding: 0px; list-style-type: disc;}
+#contentsection li{margin: 0 0 0 15px; padding: 0;}
+#contentsection ul.meetingrooms{margin: 0; padding: 0px; list-style-type: none;}
+#contentsection ul.meetingrooms li{float: left; width: 210px; height: 240px; margin: 10px; padding: 0;}
+#contentsection ul.meetingrooms img{border: 1px solid black;}
+#contentsection ul.meetingrooms2{margin: 0; padding: 0px; list-style-type: none;}
+#contentsection ul.meetingrooms2 li{float: left; width: 180px; height: 240px; margin: 10px; padding: 0;}
+#contentsection ul.meetingrooms2 img{border: 1px solid black;}
+#contentsection p{ margin: 0 0 1em 0; padding: 0;}
+#contentsection dd{margin: 0px 0px 0px 60px; padding: 0;}
+
+#pagefeeds {padding: 0;}
+#pagefeeds .floatleft {float:left; width:45%;}
+#pagefeeds ul{ margin: 0 0 0 20px;}
+#pagefeeds li{ margin: 5px 0 5px 0;}
+#pagefeeds h1{ font-size: 200%; font-weight: bold; margin: 25px 0 0 0; padding: 0; text-decoration: underline;}
+#pagefeeds h2{ font-size: 150%; font-weight: bold; text-align: center;}
+#pagefeeds h2 img{float:left; vertical-align: middle; border: 0; padding: 0 0 0 10px; margin: -3px -38px 0 0;}
+#pagefeeds h3{ font-size: 140%; font-weight: bold; margin: 25px 0 0 0; padding: 0; text-decoration: underline;}
+#pagefeeds h4{ font-size: 120%; font-weight: bold; margin: 25px 0 0 0; padding: 0;}
+#pagefeeds h5{ font-size: 110%; font-weight: bold; margin: 25px 0 0 10px; padding: 0; text-decoration: underline;}
+#pagefeeds h6{ font-size: 90%; font-weight: bold; margin: 10px 0 0 10px; padding: 0;}
+
+/* used in test version of publications.php */
+a.headinglink { color: #26425f; margin: 0px; padding: 0px; font-size: 14px; font-weight:bold; font-family: arial,helvetica,sans-serif; text-decoration: none;}
+a.headinglink:link { color: #26425f; margin: 0px; padding: 0px; font-size: 14px; font-weight:bold; font-family: arial,helvetica,sans-serif; text-decoration: none;}
+a.headinglink:visited { color: #26425f; margin: 0px; padding: 0px; font-size: 14px; font-weight:bold; font-family: arial,helvetica,sans-serif; text-decoration: none;}
+a.headinglink:hover { color: #36362a; margin: 0px; padding: 0px; font-size: 14px; font-weight:bold; font-family: arial,helvetica,sans-serif; text-decoration: underline;}
+
+.mainwidepanel div#main { font-size: 133%; }
+ul.instructions { list-style-type: disc; margin: 0 0 0 20px; }
+li.miportal {margin: 0px;padding: 0px;}
+li.miportal a, li.miportal a:link, li.miportal a:visited, li.miportal a:hover { text-align: center; font-size: 18px; display: block; min-width: 250px; min-height: 50px; padding: 20px 20px 0px 20px; color: #ffffff; background-color: #36362a; text-decoration: none; }
+
+/* agency websites */
+#contentsection hr.agency { clear: both; margin: 5px 0;}
+/*#contentsection div.menuheader { margin-left: 86px; padding-top: 5px; font-weight: bold; text-align: center; width: 608px; height: 20px; border: 1px solid black; border-bottom: 0; background-color: #e7e4dc; }*/
+#contentsection div.menuheader { margin-left: 114px; padding-top: 5px; font-weight: bold; text-align: center; width: 574px; height: 20px; border: 1px solid black; border-bottom: 0; background-color: #e7e4dc; }
+#contentsection p.menuheader { padding-bottom: 0; margin-bottom: 0; margin-left: 114px; padding-top: 5px; font-weight: bold; text-align: center; width: 574px; height: 20px; border: 1px solid black; border-bottom: 0; background-color: #e7e4dc; }
+
+#contentsection div.pagecontent { float: left; padding: 10px; text-align: left; width: 500px; }
+#contentsection div.pagecontent ul { width: 100%; }
+#contentsection div.pagecontent ul.video { width: 100%; }
+#contentsection div.pagecontent ul li{ text-align: left; }
+#contentsection div.pagecontent ul.video ul { width: 100%; }
+#contentsection div.pagecontent h1{ }
+#contentsection div.pagecontent h2{ margin-bottom: 10px; text-align: center; }
+#contentsection div.pagecontent h3{ }
+#contentsection div.pagecontent h4{ }
+#contentsection div.pagecontent h5{ }
+#contentsection div.pagecontent h6{ }
+#contentsection div.pagecontent table{ }
+#contentsection div.pagecontent div.column10{ float: left; width: 10%; padding: 5px 2px 5px 2px; }
+#contentsection div.pagecontent div.column20{ float: left; width: 20%; padding: 5px 2px 5px 2px; }
+#contentsection div.pagecontent div.column30{ float: left; width: 30%; padding: 5px 2px 5px 2px; }
+#contentsection div.pagecontent div.column40{ float: left; width: 40%; padding: 5px 2px 5px 2px; }
+#contentsection div.pagecontent div.column50{ float: left; width: 50%; padding: 5px 2px 5px 2px; }
+#contentsection div.pagecontent div.column60{ float: left; width: 60%; padding: 5px 2px 5px 2px; }
+#contentsection div.pagecontent div.column70{ float: left; width: 70%; padding: 5px 2px 5px 2px; }
+#contentsection div.pagecontent div.column80{ float: left; width: 80%; padding: 5px 2px 5px 2px; }
+#contentsection div.pagecontent div.column90{ float: left; width: 90%; padding: 5px 2px 5px 2px; }
+/* end agency websites */
+
+a.showhide { text-decoration: none; }
+a.showhide:hover { text-decoration: none; }
+
+.printdisplay{
+	display: none;
+}
+
+.sort-desc {
+	left: 3px;
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border: solid 5px transparent;
+	margin: 4px 4px 0 3px;
+	background: transparent;
+	border-top: solid 7px blue;
+	border-bottom-width: 0;
+}
+
+.sort-asc {
+	left: 3px;
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border: solid 5px transparent;
+	margin: 4px 4px 0 3px;
+	background: transparent;
+	border-bottom: solid 7px blue;
+	border-top-width: 0;
+}
+
+.sort-disabled {
+	left: 3px;
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border: solid 5px transparent;
+	margin: 4px 4px 0 3px;
+	background: transparent;
+	border-bottom: solid 7px darkgray;
+	border-top-width: 0;
+}
+
+div.bill { font-size: 1.0em; margin: 0 0 40px 0; }
+
+div.bill table {width: 100%; margin: 5px 0 0 0;}
+div.bill table tr td.col0{ text-align: left; vertical-align: top; width: 70px; height: auto; }
+div.bill table tr td.col1{ text-align: left; vertical-align: top; width: 70px; height: auto; }
+div.bill table tr td.col2{ text-align: left; vertical-align: top; min-width: 70px; height: auto; }
+
+div.bill table tr.even { background-color: rgb(238, 238, 238); }
+div.bill table tr.odd { background-color: rgb(221, 221, 221); }
+
+div.bill table tr:hover{ background-color: rgb(255, 255, 153); }
+
+div.bill table tr.highlight { background-color: rgb(190, 255, 190); }
+
+div.bill table tr.even.highlight { background-color: rgb(210, 255, 210); }
+div.bill table tr.odd.highlight { background-color: rgb(180, 255, 180); }
+
+div.bill table tr.highlight:hover { background-color: rgb(80, 255, 80); }

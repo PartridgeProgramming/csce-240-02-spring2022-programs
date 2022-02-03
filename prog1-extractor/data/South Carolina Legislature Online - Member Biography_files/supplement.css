@@ -1,0 +1,560 @@
+/* zipsearch */
+
+#zipsearch { display: block; margin: 0px 0px 0px 30px; width: 800px; text-align: center;}
+#zipsearch div.column1 { float:left; width: 500px;}
+#zipsearch div.column2 { float:left; width: 200px;}
+#zipsearch label{ display: inline-block; width: 60px; text-align: right; margin: 5px 0 0 0; font-weight: bold;}
+#zipsearch input[type="text"][name="address"]{ width: 410px; margin: 5px 0 0 0;}
+#zipsearch input[type="text"][name="city"]{ width: 200px; margin: 5px 0 0 0;}
+#zipsearch input[type="text"][name="zip5"]{ width: 70px; margin: 5px 0 0 0;}
+#zipsearch input[type="text"][name="zip4"]{ width: 60px; margin: 5px 0 0 0;}
+#zipsearch input[type="submit"]{width: 110px; margin: 15px 0 0 0; padding: 0;}
+#zipsearch input[type="reset"]{width: 50px; margin: 15px 0 0 0; padding: 0;}
+
+/* vote */
+
+A:link {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:12px;font-weight:bold;color:#336699}
+A:active {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:12px;font-weight:bold;color:#336699}
+A:visited {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:12px;font-weight:bold;color:#336699}
+A:hover {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:12px;font-weight:bold;color:#0099cc}
+
+A.disabled:link {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:12px;font-weight:bold;color:#cccccc;}
+A.disabled:active {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:12px;font-weight:bold;color:#cccccc;}
+A.disabled:visited {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:12px;font-weight:bold;color:#cccccc;}
+A.disabled:hover {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:12px;font-weight:bold;color:#cccccc;}
+
+A.menu:link {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:12px;font-weight:bold;color:#ffffff}
+A.menu:active {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:12px;font-weight:bold;color:#ffffff}
+A.menu:visited {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:12px;font-weight:bold;color:#ffffff}
+A.menu:hover {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:12px;font-weight:bold;color:#00ffff}
+
+.xa {background-color:#ffffcc}
+.xb {background-color:#f7f7e7}
+.xc {background-color:#000000;font-family:Arial,Helvetica,Geneva,sans-serif}
+.xd {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:10px;text-align:right;color:#000000;font-weight:normal}
+.xf {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:10px;font-weight:bold;color:#000000}
+.xh {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:10px;color:#000000}
+.xh1 {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:10px;background-color:#ecf8fd;color:#000000;vertical-align:baseline}
+.xh1gray {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:10px;background-color:#cccccc;color:#000000;vertical-align:baseline}
+.xh2 {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:10px;background-color:#e1f0ff;color:#000000;vertical-align:baseline}
+.xq {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:80%;color:#663300}
+.xt {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:10px;color:#663300}
+.xw {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:12px;color:#ffffff}
+.xx {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:10px;color:#336699}
+.x1 {background-color:#336699}
+.x14 {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:26px;color:#336699}
+.x15 {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:12px;color:#336699;font-weight:bold}
+.x15a {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:10px;color:#336699;font-weight:bold}
+.x15b {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:10pt;color:#336699;background-color:#cccc99;font-weight:bold}
+.x1n {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:10px;color:#cccc99;text-decoration:none}
+TD.x1n A:link {color:#cccc99;text-decoration:none}
+TD.x1n A:active {color:#cccc99;text-decoration:none}
+TD.x1n A:visited {color:#cccc99;text-decoration:none}
+.x1v {background-color:#999966}
+.x1w {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:92%;background-color:#cccc99;color:#336699;font-weight:bold}
+.x1z {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:10px;font-weight:bold;background-color:#cccc99;color:#336699;vertical-align:bottom;text-align:center}
+.x20 {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:10px;font-weight:bold;text-align:left;background-color:#E2EBFA;color:#336699;vertical-align:bottom;cursor:pointer}
+.x202 {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:10px;font-weight:bold;text-align:left;background-color:#A2ABFA;color:#336699;vertical-align:bottom;cursor:pointer}
+.x29 {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:10px;background-color:#f7f7e7;color:#000000;vertical-align:baseline}
+.x29a {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:10px;background-color:#e7e7d7;color:#000000;vertical-align:baseline}
+.x29b {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:12px;background-color:#f7f7e7;color:#000000;vertical-align:baseline}
+.x29c {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:8.5pt;font-weight:bold;background-color:#dbdbb0;color:#000000;vertical-align:baseline}
+.x29t {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:12px;vertical-align:baseline}
+.x2d {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:10px;text-align:center;background-color:#f7f7e7;color:#000000;vertical-align:baseline}
+.x2da {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:10px;text-align:center;background-color:#e7e7d7;color:#000000;vertical-align:baseline}
+.x2n {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:10px;font-weight:bold;background-color:#E2EBFA;color:#000000;text-decoration:none;vertical-align:bottom}
+.x2n2 {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:10px;font-weight:bold;background-color:#A2ABFA;color:#000000;text-decoration:none;vertical-align:bottom}
+.x2v {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:75%;color:#000000;text-decoration:none}
+.x2w {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:90%;color:#663300}
+.x35 {background-color:#f7f7e7;font-family:Arial,Helvetica,Geneva,sans-serif;font-size:10px;color:#999966;padding-bottom:2pt}
+.x36 {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:92%;color:#336699;font-weight:bold}
+TD.x36 A:link {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:92%;color:#336699;text-decoration:none}
+TD.x36 A:active {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:92%;color:#336699;text-decoration:none}
+TD.x36 A:visited {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:92%;color:#336699;text-decoration:none}
+.x3i {font-family:Arial,Helvetica,Geneva,sans-serif;font-size:10px}
+.x3p {margin:4px 0px 2px 0px}
+.x3s {font-size:10px;font-family:Courier,sans-serif;color:#3366cc}
+.x5 {background-color:#666666}
+.x6 {background-color:#999999}
+.x7 {background-color:#cccccc}
+.x8 {background-color:#999966}
+.x9 {background-color:#cccc99}
+
+#loginbox{
+	position: absolute;
+	margin: 0 auto;
+	width: 800px;
+	height: 600px;
+	top: 0px;
+	left: 0px;
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	text-align: center;
+	color: #FFFFFF;
+	background-image: url(/images/gavel2_small.jpg);
+	background-repeat:no-repeat;
+	background-position: center center;
+	background-color: transparent;
+}
+
+#mainbox{
+	position: absolute;
+	margin: 0 auto;
+	width: 640px;
+	height: 480px;
+	top: 60px;
+	left: 80px;
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	text-align: center;
+	color: #FFFFFF;
+	background-image: url(/images/gavel2_small.jpg);
+	background-repeat:no-repeat;
+	background-position: center center;
+	background-color: transparent;
+}
+
+#inputbox{
+	position: absolute;
+	margin: 0 auto;
+	width: 800px;
+	height: 600px;
+	top: 0px;
+	left: 0px;
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #f7f7e7;;
+}
+
+#loginfields{
+	position: absolute;
+	width: 300px;
+	left: 420px;
+	top: 160px;
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #FFFFFF;
+	opacity: 0.75;
+	filter:alpha(opacity=75);
+	-moz-opacity:0.75;
+}
+
+#clock{
+	position: absolute;
+	margin:0;
+	text-align: left;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+ 	font-size: 12px;
+	font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	z-index: 10;
+	color: #FFFFFF;
+	background-color: transparent;
+}
+
+.whitetext{
+ 	font-family: Arial,Helvetica,Geneva,sans-serif;
+	font-size:12px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+#content {
+	height: 100%;
+	background-color: transparent;
+	padding: 0px;
+}
+#tablecontent {
+	background-color: transparent;
+	padding: 0px;
+}
+body {text-align:center; margin:0; background-color:white;}
+
+/* contact */
+
+#errormessage {font-size:12px; font-weight:bold; color:red;}
+#statusmessage {font-size:12px; font-weight:bold; color:blue;}
+#importantmessage {font-size:12px; color:red; text-align:left;}
+#requiredmessage {font-size:11px; font-weight:bold; color:red; text-align:right; width: 520px;}
+
+#contactform { width: 700px; }
+#contactform .span1{ float: left; width: 10%; }
+#contactform .span2{ float: left; width: 20%; }
+#contactform .span3{ float: left; width: 30%; }
+#contactform .span4{ float: left; width: 40%; }
+#contactform .span5{ float: left; width: 50%; }
+#contactform .span6{ float: left; width: 60%; }
+#contactform .span7{ float: left; width: 70%; }
+#contactform .span8{ float: left; width: 80%; }
+#contactform .span9{ float: left; width: 90%; }
+#contactform .span10{ float: left; width: 100%; }
+#contactform .fieldbox{ float: left; width: 560px; }
+#contactform .buttonbox{ float: left; width: 140px; text-align: center;}
+#contactform .attachlist {float:left; width: 270px; height: 30px; padding: 0 10px 0 5px; border: 1px solid black; background-color: white; text-align:left;}
+#contactform .attachments {float:left; width: 360px; height: 30px; margin: 2px 0 0 0; }
+#contactform .attachments a.attachlink{ float:left; display: block; height: 30px; margin: 2px 0 0 0; padding: 5px; }
+#contactform .attachlist span{ }
+#contactform .attachments a.removelink{ }
+
+#contactform .notred { background-color: transparent; }
+#contactform label {float:left; display: block; width: 150px; height: 20px; margin: 2px 0 0 0; padding: 0 10px 0 0; text-align: right;}
+#contactform label span{display: block; width: 150px; height: 20px; margin: 2px 0 0 0; padding: 0 10px 0 0; text-align: right; font-size: 0.9em; color: #333333;}
+#contactform span.label {float:left; display: block; width: 150px; height: 20px; margin: 2px 0 0 0; padding: 0 10px 0 0; text-align: right;}
+#contactform span.label span{display: block; width: 150px; height: 20px; margin: 2px 0 0 0; padding: 0 10px 0 0; text-align: right; font-size: 0.9em; color: #333333;}
+#contactform label.required { }
+#contactform input[type="text"] {float:left; display: block; width: 360px; height: 20px; text-align: left; margin: 2px 0 0 0;}
+/*#contactform input[type="text"].required { background-color: #fa9c9c; }*/
+#contactform input[type="text"].required { background-color: #fffccf; }
+#contactform input[type="submit"], #contactform input[type="button"], #contactform input[type="reset"] {height: 25px; margin: 2px 0 0 0;}
+#contactform select {float:left; display: block; width: 360px; height: 20px; text-align: left; margin: 2px 0 0 0; line-height: 20px; -webkit-appearance: menulist-button;}
+#contactform select[name=Attachment] {float:left; display: block; width: 200px; height: 20px; text-align: left; margin: 2px 0 0 0;}
+#contactform select.required { background-color: #fffccf; }
+#contactform textarea {float:left; display: block; width: 360px; height: 110px; text-align: left; margin: 2px 0 0 0;}
+#contactform textarea.required { background-color: #fffccf; }
+
+#contactform div.verifyheader { float: left; width: 560px; height: 20px; background-color:#444444; color:white; text-align:left; margin-top:10px; font-weight:bold; }
+#contactform div.captchacode { float: left; width: 150px; height: 40px; text-align:right; font-size:10px; }
+#contactform div.captchafield { float: left; width: 410px; height: 45px; text-align:left; font-size:10px; }
+
+.dialog { width: 500px;}
+.dialog .dialog_title { width: 100%; background-color:#363e7d; color:white; }
+.dialog a.close {position: absolute; top:-2px; left: 482px; width:20px; height: 20px; background-image: url(../images/close.png); background-repeat: no-repeat; background-position: center center;}
+.dialog iframe { /*width: 480px; height: 100px;*/ width: 0px; height: 0px; visibility: hidden;}
+.dialog .instruction { width: 90%; font-size:12px; text-align: center; margin: 0 auto;}
+.dialog .important { color: red; }
+#uploadform { }	
+
+#backlayer{ display:none; background:#000000; opacity:0.8; filter:alpha(opacity=80); position:fixed; top:0px; left:0px; min-width:100%; min-height:100%; z-index:2000; }
+#dialoglayer{ display:none; position:fixed; top:200px; left:50%; margin-left:-250px; width:500px; background:#ffffff; border: 2px solid #cccccc; z-index:2001; }
+/*#backlayer{ display:none; background-image: url(../images/overlay.png); position:fixed; top:0px; left:0px; min-width:100%; min-height:100%; z-index:1000; }*/
+
+/* navwrap */
+
+.nav_wrap
+{
+	margin-top: 0px;
+	width: 100%;
+}
+
+.nav_wrap ul
+{
+	list-style-type:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+	width: 100%;
+	text-align: center;
+}
+
+.nav_wrap ul a
+{
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	line-height:18px;
+	height: 36px;
+	margin:0px;
+	padding:0 5px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#contentsection .nav_wrap a{ color:#fff; font-size: 1em; text-decoration:none;}
+
+.nav_wrap ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+	text-indent: 0;
+	list-style-type:none;
+	width: 114px;
+	border-right: 1px solid #222;
+	background-color: #8f7f68;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+#contentsection .nav_wrap li{margin: 0; padding: 0; font-size: 0.95em; }
+
+#contentsection .nav_wrap ul li.selected
+{
+	color: #222;
+	background-color:#e6e6e6;
+}
+
+#contentsection .nav_wrap ul li.selected a
+{
+ 	color: #222;
+}
+
+.nav_wrap ul li:hover
+{
+ 	color: #222;
+	background-color:#f6f6f6;
+}
+
+#contentsection .nav_wrap ul li:hover a
+{
+ 	color: #222;
+}
+
+.nav_wrap ul ul
+{
+	/*display:none;*/
+	position:absolute;
+	top:100%;
+	left:0;
+	background-color: #af9f88;
+	padding:0 10px;
+	z-index: 100;
+	text-align: left;
+	opacity: 0;
+    visibility: hidden;
+    -webkit-transiton: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    -ms-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+    -transition: opacity 0.2s;
+}
+
+.nav_wrap ul ul li
+{
+	float:none;
+	width:200px;
+	background-color: #af9f88;
+	border-left: 1px solid #222;
+	border-right: 1px solid #222;
+	border-bottom: 1px solid #dfcfb8;
+}
+
+
+.nav_wrap ul ul li:last-child
+{
+	float:none;
+	width:200px;
+	background-color: #af9f88;
+	border-bottom: 1px solid #222;
+	border-top: 0;
+}
+
+.nav_wrap ul ul li:hover
+{
+	background:#f6f6f6;
+}
+
+.nav_wrap ul ul a
+{
+	height: auto;
+	padding:5px 15px;
+	line-height: 25px;
+}
+
+.nav_wrap ul ul a:hover
+{
+	background-color:#f6f6f6;
+}
+
+#contentsection .nav_wrap ul ul a{ color: #26425f; font-size: 1em; text-decoration: none; }
+
+.nav_wrap ul ul ul
+{
+	top:-1px;
+	left:85%;
+}
+
+.nav_wrap ul ul ul li
+{
+ 	float:none;
+	width:200px;
+	background-color: #bfaf98;
+}
+
+.nav_wrap ul ul ul li:first-child
+{
+	background-color: #bfaf98;
+	border-top: 1px solid #222;
+}
+
+.nav_wrap ul ul ul li:last-child
+{
+	background-color: #bfaf98;
+}
+
+.nav_wrap ul ul ul li:hover
+{
+	background-color:#f6f6f6;
+}
+
+.nav_wrap ul li:hover > ul
+{
+	/*display:block;*/
+	opacity: 1;
+    visibility: visible;
+}
+
+.submenu
+{
+ 	float:left;
+ 	margin-right: 10px;
+	width: 15%;
+}
+
+.submenu ul
+{
+	list-style-type:none;
+	margin: 0;
+	padding: 20px 0 0 0;
+	width: 100%;
+	text-align: center;
+	/*background-color: red;*/
+}
+
+.submenu ul a
+{
+	display:block;
+	color:#fff;
+	line-height:18px;
+	height: 36px;
+	text-decoration:none;
+	margin:0px;
+	padding:0 5px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#contentsection .submenu a{ color:#fff; font-size: 1em; text-decoration:none;}
+
+.submenu ul li
+{
+	position:relative;
+	margin:0;
+	padding:0;
+	text-indent: 0;
+	list-style-type:none;
+	width: 100%;
+	border: 1px solid #222;
+	border-top: 0;
+	background-color: #8f7f68;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.submenu ul li:first-child
+{
+	border-top: 1px solid #222;
+}
+
+#contentsection .submenu li{margin: 0; padding: 0; font-size: 0.95em; }
+
+#contentsection .submenu ul li.selected
+{
+	color: #222;
+	background-color:#e6e6e6;
+}
+
+#contentsection .submenu ul li.selected a
+{
+	color: #222;
+}
+
+.submenu ul li:hover
+{
+ 	color: #222;
+	background-color:#f6f6f6;
+}
+
+#contentsection .submenu ul li:hover a
+{
+ 	color: #222;
+}
+
+/* linkbar */
+
+#contentsection div.infocolumn {
+	float: left;
+	width: 49%;
+	margin-right: 1%; 
+	height: 110px;
+	text-align: left;
+}
+
+#contentsection div.linkbar {
+	width: 100%;
+	position:relative;
+}
+
+#contentsection div.linkbar div.column { 
+ 	float: left;
+	width: 36%;
+	height: 60px;
+	text-align: left;
+}
+
+#contentsection div.linkbar div.column:first-child { 
+ 	float: left;
+	width: 28%;
+	height: 54px;
+	text-align: left;
+}
+
+#contentsection div.linkbar div.column:last-child { 
+ 	float: left;
+	width: 36%;
+	height: 54px;
+	text-align: left;
+}
+
+#contentsection div.linkbar div.column label {
+ 	display: inline-block;
+ 	width: 50px;
+ 	padding: 0 5px 0 0;
+ 	text-align: left;
+ 	font-weight: bold;
+}
+
+#contentsection div.linkbar div.column input {
+	display: inline-block; 	
+ 	width: 180px;
+}
+
+#contentsection div.linkbar div.column:last-child label {
+ 	text-align: left;
+ 	width: 100px;
+ 	padding: 2px 5px 0 0;
+}
+
+#contentsection div.linkbar div.column:last-child input {
+	display: inline-block; 	
+ 	width: 130px;
+ 	margin: 2px 0 0 0;
+}
+
+#contentsection div.linkbar div.column a {
+ 	display:block;
+	text-decoration:none;
+	line-height:15px;
+	height: 20px;
+	margin:0px;
+	padding:2px 5px 0 0;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+}

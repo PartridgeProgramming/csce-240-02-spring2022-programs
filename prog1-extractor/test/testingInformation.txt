@@ -1,0 +1,8 @@
+inputPath = data\South Carolina Legislature Online - Member Biography.txt
+districtName = 57
+
+Output given the inputs:
+District 57
+	There are 196 lines in the file.
+	There are 685 words in the file.
+	There are 6266 characters in the file.

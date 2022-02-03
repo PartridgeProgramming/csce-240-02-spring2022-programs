@@ -1,0 +1,13 @@
+Programming Assignment # 1
+  Goal: extract data from the district of choice
+• Language of choice: Any from the three (C++, Java, Python)
+  Program should do the following:
+• Take district name as input
+• Read content from the district’s URL or a local text version of the district page
+• Report statistics of content: lines, words, chars
+• Write content out in an output file formatted with indentation
+  Code organization
+• Create a folder in your GitHub called “prog1-extractor”
+• Have sub-folders: src (or code), data, doc, test
+• Write a 1-page report in ./doc sub-folder
+• Send a confirmation that code is done to instructor and TA, and update Google sheet
