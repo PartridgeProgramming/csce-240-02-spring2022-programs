@@ -41,12 +41,12 @@ int main () {
 
 	//Informs user on the program and queries for which option
 	cout<<"Welcome to the OOGeometricPropertyCalculator, please fill in the input file and then run this program again before proceeding."<<endl;
-	/*
+	
 	cout<<"Now, please enter either 1 for the AREA of all shapes in the input file, 2 for the PERIMETER of all shapes in the input file, or anything else to end the program: "<<endl;
 	cin>>choice;
-	*/
+	
 	//this is for debugging purposes, the console input does not work when running through debug mode
-	choice = 1;
+	//choice = 1;
 
 	//input and output stream for the input and output files
 	ifstream input_myfile(input_file);
