@@ -1,0 +1,3 @@
+Lacks error handling for non number inputs for the arguments of a shape
+Does not check to see if triangle would be valid
+Does not check for negative numbers for arguments of a shape
