@@ -1,0 +1,6 @@
+Circle area: 221.670778
+Rectangle area: 14.260000
+Triangle Area: 3.559775
+An error has occurred with the circle class.
+An error has occurred with the rectangle class.
+An error has occurred with the triangle class.

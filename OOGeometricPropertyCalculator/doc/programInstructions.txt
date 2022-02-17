@@ -1,0 +1,26 @@
+Build a program called OOGeometricPropertyCalculator
+• Your new code will do the same as Home Work#2 but with OO design
+• It will have 4 classes: Shape – the parent, and its three children - Rectangle, Circle and Triangle
+• Shape will have three members: area, perimeter and errorMessage; 
+	and at least three functions getArea(), getPerimeter() and getErrorMessage().
+• In your code, there will be a utility file (OOGeometricPropertyCalculator.cpp) with main() and will call the classes and functions. 
+	You can choose to have one or more files for the classes.
+	(E.g, For the 4 classes, 4 headers + 4 .cpp files).
+• You will also draw UML class diagrams for it
+
+Functionality Reminder
+• The user specifies the property to calculate as argument to the
+	program: 1 for AREA and 2 for PERIMETER
+• The program writes output lines to an output file (called output.txt) for
+	each shape that it reads and the property – AREA or PERIMETER
+	
+Code guidelines for the OO code you will write
+• Have sub-directories in your folder
+• src sub-folder, (or code) for code
+• data sub-folder, for input.txt and output.txt
+• doc sub-folder, for documentation on what the code does or sample output.
+
+In documentation
+• Have a UML class diagram for the classes
+• Observe how long was the code earlier and now. If you have to add a new functionality (like
+	getVertices() to get all the vertices in a shape), how easy or hard will it be in HW2 code or HW3 code?
