@@ -1,0 +1,24 @@
+inputPath = "data/SouthCarolinaLegislature-District57BiographyTesting.txt"
+displayCommands - displays all available command in console
+	Here are all the currently supported commands: displayCommands, contactInfo, exit
+	Some of these commands have subcommands, you can type "help-" and a command name to see more info.
+	For example, help-contactInfo will display that contactInfo has the subcommand contactInfo-name
+	Keep in mind that all commands are case sensitive.
+contactInfo - displays all the contact info: name, region, addresses: Columbia, home, phone: business, home
+contactInfo:name - displays only the name of the representative
+	Representative Lucas Atkinson
+contactInfo:region -  displays only the region of the representative
+	District 57 - Dillon, Horry & Marion Counties - Map
+contactInfo:colAddress - displays only the Columbia address of the representative
+
+contactInfo:homeAddress - displays only the home address of the representative
+
+contactInfo:busPhone - displays only the business phone number of the representative (note in the input file both the home phone and business phone are labeled business phone)
+	Business Phone (803) 212-6936
+contactInfo:homePhone - displays only the home phone number of the representative (note in the input file both the home phone and business phone are labeled business phone)
+	Business Phone (843) 423-8237
+help-contactInfo: tells the user what all the subcommands of the contactInfo command
+	The command "contactInfo" is used to display the contact information of the representative in the file.
+	It has the subcommands: contactInfo:name, contactInfo:region, contactInfo:homeAddress, contactInfo:colAddress, contactInfo:busPhone, contactInfo:homePhone
+exit: exits the program
+	Exiting the program.

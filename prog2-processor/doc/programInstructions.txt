@@ -1,0 +1,19 @@
+Goal: process extracted text based on questions
+• Language of choice: Any from the three (C++, Java, Python)
+• Program should do the following:
+• Take input from a local file with whose content is obtained from Prog#1
+(when district name given as input)
+• Given an information type as input, the program will return its content
+• Examples: Contact Information, personal information, voting records
+• Input type can be given as command line argument.
+Examples:
+• prog2processor –t “Contact Information”
+• prog2processor –t “Contact Information:name” // Get person’s name
+• For demonstrating that your program works, have a file called
+“test_output.txt” showing the set of supported commandline options
+and output in the doc folder.
+Code organization
+• Create a folder in your GitHub called “prog2-processor”
+• Have sub-folders: src (or code), data, doc, test
+• Write a 1-page report in ./doc sub-folder
+• Send a confirmation that code is done to instructor and TA, and update Google sheet
