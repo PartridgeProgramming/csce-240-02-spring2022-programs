@@ -10,10 +10,19 @@ public class prog4userintent2querymapper {
 	/**
 	 * @param args
 	 */
+	
+	/*
+	 * Known user query
+	 * "Tell me about the representative"
+	 * "Where does the rep live"
+	 * "How do I contact my rep"
+	 * "What committees is my repo on"
+	 * "Tell me everything"
+	 */
 	public static void main(String[] args) {	
 		// This string represents a command that the user will input
 		String question = null;
-		int confidence = 0;
+		
 				
 		//Creates a buffered reader for console input
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
@@ -25,17 +34,16 @@ public class prog4userintent2querymapper {
 		, "House of Representatives, 2017-Present");
 		
 		//This ArrayList is used to hold the delimited user input 
-		ArrayList<String> questionFrags = new ArrayList<String>(99);
+		Vector<String> questionFrags = new Vector<String>();
 		
 		//
 		
 		// do while loop to allow the running of multiple commands during a session
 			do {
 				try {	
-					//Resets the confidence variable and the 
+					//Resets the vector
 					questionFrags.clear();
-					confidence = 0;
-					
+
 					//Query for user question, then read the response
 					System.out.println("Please ask me a question: ");
 					question = reader.readLine();
@@ -44,45 +52,40 @@ public class prog4userintent2querymapper {
 					String[] questionDelimited = question.split("\\s+");
 					
 					//Uses the array to input in the response
-					for (int i = 0; i >= questionDelimited.length; i++) {
+					for (int i = 0; i <= questionDelimited.length-1; i++) {
 						questionFrags.add(questionDelimited[i]);
 					}
 					questionFrags.trimToSize();
 					
-					//Currently used to test if the arrayList is actually getting filled, will be removed later
-					for (int j = 0; j >= questionFrags.size(); j++) {
-						System.out.print(questionFrags.get(j));
+					if (question.equalsIgnoreCase("exit")||question.equalsIgnoreCase("q")||question.equalsIgnoreCase("quit")) {
+						System.out.println("Good bye!");
+						System.exit(0);
 					}
-					
-						if (question.equalsIgnoreCase("exit")||question.equalsIgnoreCase("q")) {
-							System.out.println("Good bye!");
-							System.exit(0);
-						}
-						if (question.contains("name")) {
-							System.out.println("I am representative " + rep.getName());
-						}
-						if (question.contains("region")||question.contains("district")) {
-							System.out.println("I am the representative for " + rep.getRegion());
-						}
-						if (question.contains("personal phone")) {
-							System.out.println("My personal phone number is " + rep.getHomePhone());
-						}
-						if (question.contains("live")) {
-							System.out.println("My home address " + rep.getHomeAddress());
-						}
-						if (question.contains("contact")) {
-							System.out.println("You can contact me at " + rep.getContactAddress() + ".");
-							System.out.println("My contact line is " + rep.getBusPhone() + ".");
-						}
-						if (question.contains("committees")||question.contains("committee")) {
-							System.out.println("I have been in the following committees: " + rep.getCommittees());
-						}
-						if (question.contains("service")) {
-							System.out.println("Here is my history of public service: " + rep.getServiceDates());
-						}
-						if (question.equalsIgnoreCase("tell me everything")) {
-							System.out.println(rep.getAllInfo());
-						}
+					if (question.contains("name")) {
+						System.out.println("I am representative " + rep.getName());
+					}
+					if (question.contains("region")||question.contains("district")) {
+						System.out.println("I am the representative for " + rep.getRegion());
+					}
+					if (question.contains("personal phone")) {
+						System.out.println("My personal phone number is " + rep.getHomePhone());
+					}
+					if (question.contains("live")) {
+						System.out.println("My home address " + rep.getHomeAddress());
+					}
+					if (question.contains("contact")) {
+						System.out.println("You can contact me at " + rep.getContactAddress() + ".");
+						System.out.println("My contact line is " + rep.getBusPhone() + ".");
+					}
+					if (question.contains("committees")||question.contains("committee")) {
+						System.out.println("I have been in the following committees: " + rep.getCommittees());
+					}
+					if (question.contains("service")) {
+						System.out.println("Here is my history of public service: " + rep.getServiceDates());
+					}
+					if (question.equalsIgnoreCase("tell me everything")) {
+						System.out.println(rep.getAllInfo());
+					}
 						/*
 						else {
 							System.out.println("I do not know this information.");
@@ -101,4 +104,30 @@ public class prog4userintent2querymapper {
 				while (!question.equalsIgnoreCase("exit")||question.equalsIgnoreCase("q"));
 				System.exit(0);
 			}
+	//========================================================================
+	/*
+	 * 1 = quit program
+	 * 2 = rep personal info
+	 * 3 = contact info, home address
+	 * 4 = contact info
+	 * 5 = committee assignments
+	 * 6 = give all information
+	 */
+	public int testResponse(Vector<String> testing) {
+		int confidence = 0, responseCode = 0;
+		final int questionsSupported = 6;
+		String[] testAgainst1 = new String[] {"q", "quit", "Q", "Quit"};
+		String[] testAgainst2 = new String[] {"Tell", "me", "about", "the" ,"representative"};
+		String[] testAgainst3 = new String[] {"Where", "does", "the", "rep", "live"};
+		String[] testAgainst4 = new String[] {"How", "do", "I", "contact", "my", "rep "};
+		String[] testAgainst5 = new String[] {"What", "committees", "is", "my ", "repo ", "on"};
+		String[] testAgainst6 = new String[] {"Tell", "me", "everything"};
+		for (int i = 0; i < questionsSupported; i++) {
+			
+		}
+		
+		
+		return responseCode;
+	}
+	//========================================================================
 }
