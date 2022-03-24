@@ -80,12 +80,20 @@ public class Representative {
 	public String getServiceDates() {
 		return service;
 	}
+	public String getContactInfo() {
+		return "I am representative " + getName()
+		+ "\nI am the representative for " + getRegion() 
+		+ "\nMy home address " + getHomeAddress() 
+		+ "\nYou can contact me at " + getContactAddress() 
+		+ "\nYou can contact me personally with this number " + getHomePhone() 
+		+ "\nMy contact line is " + getBusPhone();
+	}
 	public String getAllInfo() {
-		return "I am representative" + getName() 
+		return "I am representative " + getName() 
 		+ "\nMy home address " + getHomeAddress() 
 		+ "\nYou can contact me at " + getContactAddress() 
 		+ "\nI am the representative for " + getRegion() 
-		+ "\nYou can contact me personally with this number" + getHomePhone() 
+		+ "\nYou can contact me personally with this number " + getHomePhone() 
 		+ "\nMy contact line is " + getBusPhone()
 		+ "\nI have been in the following committees: " + getCommittees()
 		+ "\nI have been a representative from: " + getServiceDates();
