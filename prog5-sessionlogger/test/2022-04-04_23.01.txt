@@ -1,0 +1,40 @@
+
+Please ask me a question: 
+Tell me about the representative
+I am representative Lucas Atkinson.
+
+Please ask me a question: 
+Where does the rep live
+My home address P.O. Box 583, Marion 29571
+
+Please ask me a question: 
+How do I contact my rep
+I am representative Lucas Atkinson
+I am the representative for district 57
+My home address P.O. Box 583, Marion 29571
+You can contact me at 333D Blatt Bldg., Columbia 29201
+You can contact me personally with this number (843) 423-8237
+My contact line is (803) 212-6936
+Please ask me a question: 
+What committees is my repo on
+Could you please rephrase that?
+
+Please ask me a question: 
+Tell me everything
+I am representative Lucas Atkinson
+My home address P.O. Box 583, Marion 29571
+You can contact me at 333D Blatt Bldg., Columbia 29201
+I am the representative for district 57
+You can contact me personally with this number (843) 423-8237
+My contact line is (803) 212-6936
+I have been in the following committees: Agriculture, Natural Resources & Environmental Affairs, and Rules
+I have been a representative from: House of Representatives, 2017-Present
+Please ask me a question: 
+test non standard
+Could you please rephrase that?
+
+Please ask me a question: 
+q
+Good bye!
+Total duration is 49.4831073 seconds.
+The user asked 7 times, and the system responded 7 times.

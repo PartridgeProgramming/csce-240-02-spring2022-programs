@@ -1,0 +1,10 @@
+
+Please ask me a question: 
+no
+Could you please rephrase that?
+
+Please ask me a question: 
+q
+Good bye!
+Total duration is 2.9547568 seconds.
+The user asked 2 times, and the system responded 2 times.
