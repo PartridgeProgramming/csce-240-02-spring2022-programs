@@ -1,0 +1,47 @@
+
+Please ask me a question: 
+tell me about the representative
+I am Representative Lucas Atkinson.
+
+Please ask me a question: 
+where does the rep live
+My home address is P.O. Box 583
+Marion 29571
+
+Please ask me a question: 
+how do i contact my rep
+I am Representative Lucas Atkinson
+I am the representative for  Dillon, Horry and Marion counties.
+My home address is P.O. Box 583
+Marion 29571
+You can contact me at 333D Blatt Bldg. Columbia 29201
+You can contact me personally with this number Representative Lucas Atkinson's Home Phone number is (803) 212-6936
+My contact line is Representative Lucas Atkinson's Columbia Phone number is (843) 423-8237
+Please ask me a question: 
+what committees is my repo on
+I have been in the following committees: Representative Lucas Atkinson's Committee Assignments are: 
+Agriculture, Natural Resources & Environmental Affairs
+Rules
+
+Please ask me a question: 
+tell me everything
+I am representative Representative Lucas Atkinson.
+Representative Lucas Atkinson is a Democrat.
+My home address is at P.O. Box 583
+Marion 29571
+You can contact me at 333D Blatt Bldg. Columbia 29201
+I am the representative for Dillon, Horry and Marion counties.
+Representative Lucas Atkinson's Home Phone number is (803) 212-6936
+Representative Lucas Atkinson's Columbia Phone number is (843) 423-8237
+Representative Lucas Atkinson's Committee Assignments are: 
+Agriculture, Natural Resources & Environmental Affairs
+Rules
+Please ask me a question: 
+unsupported question
+Could you please rephrase that?
+
+Please ask me a question: 
+q
+Good bye!
+Total duration is 97.3666011 seconds.
+The user asked 7 times, and the system responded 7 times.

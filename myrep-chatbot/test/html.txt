@@ -1,0 +1,74 @@
+<span><a href="/house.php">House</a> &gt; <a href="/member.php?chamber=H&session=0">Members of the House</a> &gt; Representative Lucas Atkinson</span>
+</div>
+<div id="contentsection"  onContextMenu="stopEvent(event);">
+<h2 class="barheader">&nbsp;&nbsp;&nbsp;&nbsp;Representative Lucas Atkinson</h2>
+<img class="allowcontextmenu" style="float: left; margin: -54px 10px 0 4px; width: 125px; border:3px solid #ffffff;" alt="Representative Lucas Atkinson photo" title="Representative Lucas Atkinson photo" src="/images/members/0066477265.jpg"">
+<div style="float: left; width:550px; margin: 0 0 20px; ">
+<div style="float: left; margin: 0 0 0 20px;">
+<p style="font-size: 22px; font-weight:bold; margin: 0 0 0 0; padding: 0;"></p>
+<p style="font-size: 17px; margin: 0 0 0 0; padding: 0;">Democrat - Marion</p>
+<p style="font-size: 17px; margin: 0 0 0 0; padding: 0;">District 57 - <span style="font-size: 13px;">Dillon, Horry &amp; Marion Counties</span> - <a style="font-size: 16px;" href="/maps/house/HD57.pdf" target="_blank">Map</a></p>
+</div>
+<div style="height: 0px; margin: 0; clear: both;"></div>
+<div style="float: left; width: 225px; margin: 10px 5px 0 20px; padding: 0;">
+<h2 style="font-size: 16px; margin: 0 0 0 0;">Columbia Address</h2>
+<p style="font-size: 13px; margin: 0 0 10px 0; padding: 0;">333D Blatt Bldg.<br>Columbia 29201</p>
+<p style="font-size: 13px; margin: 0 0 0 0; padding: 0;"><span style="font-weight: bold;">Business Phone</span> (803) 212-6936</p>
+</div>
+<div style="float: left; width: 225px; margin: 10px 0 0 20px;">
+<h2 style="font-size: 16px; margin: 0 0 0 0;">Home Address</h2>
+<p style="font-size: 13px; margin: 0 0 10px 0; padding: 0;">P.O. Box 583<br>Marion 29571</p>
+<p style="font-size: 13px; margin: 0 0 0 0; padding: 0;"><span style="font-weight: bold;">Business Phone</span> (843) 423-8237</p>
+</div>
+<div style="height: 0px; margin: 0; padding: 0; clear: both;"></div>
+<a style="float: left; margin: 15px 0 0 50px;  padding: 0; font-size: 16px;" href="/email.php?T=M&C=66477265" id="sendMsgLink">Send message to Representative Atkinson</a><br>
+</div>
+<div style="float: left; width: 100%; margin: 0; padding: 0; ">
+<div style="float: left; width: 97.5%; margin: 0px 10px 10px 10px; ">
+<table style="margin: 0 10px 10px 10px; padding: 0; width: 100%;">
+<tr><td width="50%" valign="top">
+<h2 style="font-size: 20px; margin: 0 0 0 10px;">Personal Information</h2>
+<ul style="margin: 0 0 0 25px; padding: 0 0 0 0; font-size: 11px; font-weight: normal;">
+<li style="margin: 5px 0 0 0; list-style-type:square;" >Consultant</li><li style="margin: 5px 0 0 0; list-style-type:square;" >Born July 6, 1981 in Florence</li><li style="margin: 5px 0 0 0; list-style-type:square;" >Son of T. Carroll and Susanne C. Atkinson</li><li style="margin: 5px 0 0 0; list-style-type:square;" >Clemson University, B.S., 2004</li><li style="margin: 5px 0 0 0; list-style-type:square;" >Single</li><li style="margin: 5px 0 0 0; list-style-type:square;" >Member, Chamber of Commerce, 2004-, Board member, 2009 - 2013</li><li style="margin: 5px 0 0 0; list-style-type:square;" >IPTAY Representative, Marion County, 2008-</li><li style="margin: 5px 0 0 0; list-style-type:square;" >Marion County Progress Board, 2010-</li><li style="margin: 5px 0 0 0; list-style-type:square;" >Impact Marion County Board, 2015-</li></ul>
+</td><td><p>&nbsp;&nbsp;&nbsp;</p></td><td width="50%" valign="top">
+<h2 style="font-size: 20px; margin: 0 0 0 0;">Committee Assignments</h2>
+<ul style="margin: 0 0 0 15px; padding: 0 0 0 0; font-size: 11px; font-weight: normal;">
+<li style="margin: 5px 0 0 0; list-style-type:square;" ><a HREF="/committee.php?chamber=H#agr">Agriculture, Natural Resources & Environmental Affairs</a></li><li style="margin: 5px 0 0 0; list-style-type:square;" ><a HREF="/committee.php?chamber=H#rul">Rules</a></li></ul>
+<h2 style="width:300px; font-size: 20px; margin: 10px 0 5px 0;">Sponsored Bills in the House</h2>
+<ul style="margin: 0 0 12px 15px; padding: 0 0 0 0; font-size: 11px; font-weight: normal;"><form name="houseform0" method="POST" action="/sponsorsearch.php"><input type="hidden" value="B" name="summary"><input type="hidden" value="66477265" name="Representative"><li style="margin: 0 0 0 0; list-style-type:square;" >Primary Sponsor: <input type="radio" id="checkyes124" name="prime" value="Y" CHECKED alt="All Sponsored Legislation"><label for="checkyes124">&nbsp;Yes</label>&nbsp;&nbsp;<input id="checkno124" type="radio" name="prime" value="N" alt="Prime Sponsored Legislation"><label for="checkno124">&nbsp;No</label></li><li style="margin: 5px 0 0 0; list-style-type:square;" ><label for="session124">Search Session</label>: <select id="session124" name="session"><option value="124" SELECTED>2021-2022 (124)</option><option value="123">2019-2020 (123)</option><option value="122">2017-2018 (122)</option></select> <input type="submit" value="Find Bills"></li></form></ul>
+<h2 style="width:300px; font-size: 20px; margin: 0 0 0 0;">Voting Record</h2><ul style="margin: 0 0 12px 15px; padding: 0 0 0 0; font-size: 11px; font-weight: normal;"><form name="voteform" method="POST" action="/votehistory.php"><input type="hidden" name="type" value="SPONSOR"><input type="hidden" name="chamber" value="H"><input type="hidden" name="sponsor" value="66477265"><li style="margin: 5px 0 0 0; list-style-type:square;" ><label for="vote1">Search Session</label>: <select id="session" name="session"><option value="124"> 2021-2022 (124)</option>
+<option value="123"> 2019-2020 (123)</option>
+<option value="122"> 2017-2018 (122)</option>
+</select> <input type="submit" value="Find Votes"></li></form></ul>
+<h2 style="font-size: 20px; margin: 0 0 0 0;">Service In Public Office</h2>
+<ul style="margin: 0 0 0 15px; padding: 0 0 0 0; font-size: 11px; font-weight: normal;">
+<li style="margin: 5px 0 0 0; list-style-type:square;" >House of Representatives, 2017 - Present</li></ul>
+</td></tr>
+</table>
+</div>
+</div>
+</div>
+					</div>		 <!-- mainwidepanel -->
+					
+				</div>		 <!-- pagebody -->
+				
+				<div id="footer" class="nodisplay" style="height: 30px;" onContextMenu="return false;">
+			<div id="footerdiv" style="margin:0;">
+				South Carolina Legislative Services Agency * 223 Blatt Building * 1105 Pendleton Street * Columbia, SC 29201<!-- * 803-212-4420--><br>
+				
+								<a href="/disclaimer.php">Disclaimer</a> * <a href="/policies.php">Policies</a> * <a href="/credits.php">Photo Credits</a> * <a href="/contact.php">Contact Us</a>
+							</div>
+		</div>
+		<div id="printfooter" class="printdisplay serifNormal" align=center style="font-size: 8pt;">
+			<br>
+			<br>
+			<hr>
+			Legislative Services Agency
+			<br>
+			h t t p : / / w w w . s c s t a t e h o u s e . g o v
+		</div>
+	
+		</div>	<!-- container or main in mobile page-->
+</body>
+</html>
+
